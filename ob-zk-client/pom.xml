@@ -15,7 +15,7 @@
 
 	<properties>
 		<java.version>11</java.version>
-		<zookeeper.version>3.4.11</zookeeper.version>
+		<zookeeper.version>3.4.14</zookeeper.version>
 		<docker.skip>true</docker.skip>
 		<skipITs>true</skipITs>
 	</properties>
