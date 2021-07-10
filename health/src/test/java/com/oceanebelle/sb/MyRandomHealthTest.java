@@ -12,11 +12,11 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
- * Integration Type test
+ * Using Mock MVC
  */
 public class MyRandomHealthTest {
 
-    static final String PATH  = "/actuator/health/myrandom";
+    static final String PATH  = "/status/myrandom";
 
     @Nested
     @TestPropertySource(properties = "management.health.myrandom.enabled=false")
